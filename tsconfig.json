@@ -17,7 +17,7 @@
     "jsxFactory": "h"
   },
   "include": [
-    "src"
+    "packages/flame-ui/src"
   ],
   "exclude": [
     "node_modules"
