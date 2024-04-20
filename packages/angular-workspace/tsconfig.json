@@ -6,6 +6,9 @@
     "paths": {
       "component-library": [
         "dist/component-library"
+      ],
+      "stencil-library/*": [
+        "../stencil-library/dist/*"
       ]
     },
     "outDir": "./dist/out-tsc",
