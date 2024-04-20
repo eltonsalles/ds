@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, NgZo
 
 import { ProxyCmp } from './angular-component-lib/utils';
 
-import type { Components } from 'stencil-library/types';
+import type { Components } from 'stencil-library/dist/types';
 
 import { defineCustomElement as defineMyComponent } from 'stencil-library/components/my-component.js';
 @ProxyCmp({
