@@ -1,14 +1,13 @@
 /* tslint:disable */
 /* auto-generated angular directive proxies */
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, NgZone, NgModule } from '@angular/core';
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, NgZone } from '@angular/core';
 
 import { ProxyCmp } from './angular-component-lib/utils';
 
-import type { Components } from 'stencil-library/dist/types';
+import { Components } from 'stencil-library';
 
-import { defineCustomElement as defineMyComponent } from 'stencil-library/components/my-component.js';
+
 @ProxyCmp({
-  defineCustomElementFn: defineMyComponent,
   inputs: ['first', 'last', 'middle']
 })
 @Component({
@@ -25,13 +24,6 @@ export class MyComponent {
     this.el = r.nativeElement;
   }
 }
-
-
-@NgModule({
-  declarations: [MyComponent],
-  exports: [MyComponent]
-})
-export class MyComponentModule { }
 
 
 export declare interface MyComponent extends Components.MyComponent {}

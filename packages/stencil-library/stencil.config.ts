@@ -10,8 +10,8 @@ export const config: Config = {
     },
     {
       type: 'dist-custom-elements',
-      customElementsExportBehavior: 'auto-define-custom-elements',
-      externalRuntime: false,
+      // customElementsExportBehavior: 'auto-define-custom-elements',
+      // externalRuntime: false,
     },
     {
       type: 'www',
@@ -19,7 +19,7 @@ export const config: Config = {
     },
     angularOutputTarget({
       componentCorePackage: 'stencil-library',
-      outputType: 'scam',
+      // outputType: 'scam',
       directivesProxyFile: '../angular-workspace/projects/component-library/src/lib/stencil-generated/components.ts',
       directivesArrayFile: '../angular-workspace/projects/component-library/src/lib/stencil-generated/index.ts',
     }),
