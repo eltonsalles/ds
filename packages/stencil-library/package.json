@@ -1,6 +1,6 @@
 {
   "name": "stencil-library",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -13,7 +13,7 @@
       "import": "./dist/stencil-library/stencil-library.esm.js",
       "require": "./dist/stencil-library/stencil-library.cjs.js"
     },
-    "./my-component": {
+    "./dist/components/my-component.js": {
       "import": "./dist/components/my-component.js",
       "types": "./dist/components/my-component.d.ts"
     },
