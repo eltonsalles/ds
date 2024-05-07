@@ -6,9 +6,14 @@ import { ProxyCmp } from './angular-component-lib/utils';
 
 import type { Components } from 'stencil-library/dist/components';
 
-import { defineCustomElement as defineMyComponent } from 'stencil-library/dist/components/my-component.js';
+import { defineCustomElements } from 'stencil-library/loader';
+
+defineCustomElements(window, {
+  transformTagName: (tagName) => `prefix-${tagName}`,
+});
+
 @ProxyCmp({
-  defineCustomElementFn: defineMyComponent,
+  defineCustomElementFn: defineCustomElements,
   inputs: ['first', 'last', 'middle']
 })
 @Component({

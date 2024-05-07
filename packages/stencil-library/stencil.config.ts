@@ -2,6 +2,9 @@ import { Config } from '@stencil/core';
 import { angularOutputTarget } from '@stencil/angular-output-target';
 
 export const config: Config = {
+  extras: {
+    tagNameTransform: true,
+  },
   namespace: 'stencil-library',
   outputTargets: [
     {
