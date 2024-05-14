@@ -1,0 +1,16 @@
+{
+  "name": "lib-web-components",
+  "version": "0.0.4",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@open-wc/scoped-elements": "^3.0.5",
+    "@webcomponents/scoped-custom-element-registry": "^0.0.9"
+  }
+}

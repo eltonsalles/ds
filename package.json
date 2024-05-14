@@ -14,5 +14,9 @@
   "license": "MIT",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@open-wc/scoped-elements": "^3.0.5",
+    "@webcomponents/scoped-custom-element-registry": "^0.0.9"
+  }
 }
